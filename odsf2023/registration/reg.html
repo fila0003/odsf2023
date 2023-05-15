@@ -1,0 +1,88 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+
+<form action="index.html" method="post">
+
+  <h1>Registration form ODSF2023</h1>
+  
+  <fieldset>
+    <legend><span class="number">1</span>Dancer info</legend>
+    <label for="name">Name/Surname:</label>
+    <input type="text" id="name" name="user_name">
+    <label for="partner_name">Partner Name/Surname:</label>
+    <input type="text" id="partner_name" name="partner_name">
+    <label for="name">Studio/City/Prov:</label>
+    <input type="text" id="name" name="user_name">
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="user_email">
+    <label for="tel">Tel:</label>
+    <input type="tel" id="tel" name="user_tel">
+    <br>
+    <label>Age:</label>
+    
+    <input type="radio" id="under_9" value="under_13" name="user_age"><label for="under_9" class="light">Under 9</label>
+    <input type="radio" id="age_10-11" value="age_10-11" name="user_age"><label for="age_10-11" class="light">10-11</label>
+    <input type="radio" id="age_12-13" value="age_12-13" name="user_age"><label for="age_12-13" class="light">12-13</label>
+    <input type="radio" id="age_14-15" value="age_14-15" name="user_age"><label for="age_14-15" class="light">14-15</label>
+    <input type="radio" id="age_16-18" value="age_16-18" name="user_age"><label for="age_16-18" class="light">16-18</label>
+    <input type="radio" id="age_over_19" value="age_over_19" name="user_age"><label for="age_over_19" class="light">Over 19</label>
+    <p></p>
+    <label>Level:</label>
+    <div  style="
+      margin-top: 10px;
+      margin-left: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;">
+      <div>
+        <input type="checkbox" id="beginners" value="beginners" name="beginners"><label for="beginners" class="light">Beginners</label><br>
+        <input type="checkbox" id="Pre-bronze" value="Pre-bronze" name="Pre-bronze"><label for="Pre-bronze" class="light">Pre-bronze</label><br>
+        <input type="checkbox" id="bronze" value="bronze" name="bronze"><label for="bronze" class="light">Bronze</label><br>
+      </div> 
+      <div>
+        <input type="checkbox" id="silver" value="silver" name="silver"><label for="silver" class="light">Silver</label><br>
+        <input type="checkbox" id="gold" value="gold" name="gold"><label for="gold" class="light">Gold</label><br>
+        <input type="checkbox" id="pre-champion" value="pre-champion" name="pre-champion"><label for="pre-champion" class="light">Pre-Champion</label><br>
+      </div>
+    </div>
+    <p></p>
+    <label>Programm</label> 
+    <div  style="
+      margin-top: 10px;
+      margin-left: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;">
+      <div>
+      <input type="checkbox" id="WTQ" value="ballroom_3dance" name="user_interest"><label class="light" for="WTQ">W-T-Q</label><br>
+      <input type="checkbox" id="SFVW" value="ballroom_2dance" name="user_interest"><label class="light" for="SFVW">F-VW</label><br>
+      <input type="checkbox" id="WTVFQ" value="ballroom_5dance" name="user_interest"><label class="light" for="WTVFQ">W-T-V-F-Q</label><br>
+      <input type="checkbox" id="sw" value="sw" name="user_interest"><label class="light" for="sw">Slow Waltz</label><br>
+      <input type="checkbox" id="t" value="t" name="user_interest"><label class="light" for="t">Tango</label><br>
+      <input type="checkbox" id="vw" value="vw" name="user_interest"><label class="light" for="vw">Vienese Waltz</label><br>
+      <input type="checkbox" id="sf" value="sf" name="user_interest"><label class="light" for="sf">Slow Foxtrot</label><br>
+      <input type="checkbox" id="q" value="q" name="user_interest"><label class="light" for="q">Quickstep</label><br>
+      </div> 
+      <div>
+        <input type="checkbox" id="CSRPJ" value="latin_5dance" name="user_interest"><label class="light" for="CSRPJ">C-S-R-P-J</label><br>
+        <input type="checkbox" id="CRS" value="latin_3dance" name="user_interest"><label class="light" for="CRS">C-R-S</label><br>
+        <input type="checkbox" id="PJ" value="latin_2dance" name="user_interest"><label class="light" for="PJ">P-J</label><br>
+        <input type="checkbox" id="CSRPJ" value="latin_5dance" name="user_interest"><label class="light" for="CSRPJ">C-S-R-P-J</label><br>
+        <input type="checkbox" id="ch" value="ch" name="user_interest"><label class="light" for="ch">Cha-cha-cha</label><br>
+        <input type="checkbox" id="s" value="s" name="user_interest"><label class="light" for="s">Samba</label><br> 
+        <input type="checkbox" id="r" value="r" name="user_interest"><label class="light" for="r">Rumba</label><br> 
+        <input type="checkbox" id="p" value="p" name="user_interest"><label class="light" for="p">Pasodouble</label><br>
+        <input type="checkbox" id="j" value="j" name="user_interest"><label class="light" for="j">Jive</label><br>
+      </div> 
+    </div>
+ </fieldset> 
+ <button type="submit">Registration</button>
+</form>
+
+</body>
+</html>
